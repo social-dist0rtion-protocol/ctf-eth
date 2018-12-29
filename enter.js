@@ -1,4 +1,3 @@
-const Web3 = require('Web3');
 const SimpleWallet = require('./SimpleWallet');
 
 (async function pwn() {
@@ -14,6 +13,6 @@ const SimpleWallet = require('./SimpleWallet');
   console.log(blockNumber, blockNumber % 7);
   await wallet.send(contract.methods.enter());
 
-  var balance = await wallet.call(entrance.methods.balanceOf(entrance.address));
+  var balance = await wallet.call(entrance.methods.balanceOf("0x7d39b75086ad2e5ea5c3aa49fcf5c2e3b6de5ced"));
   console.log(balance);
 })();
