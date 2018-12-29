@@ -1,6 +1,6 @@
 pragma solidity >=0.4.21 <0.6.0;
 
-import "./entrance.sol";
+import "./Entrance.sol";
 import "./SafeMath.sol";
 
 contract EnterAgain {
