@@ -164,4 +164,6 @@ have to be changed or refilled with ether to run the expl0it.
   very helpful for debugging a transaction step by step.
 - If stuck, remove checks from the vulnerable contract to get your script
   passing.  It will really accelerate your workflow.
+- Remember that the game can only be played once. So once you call gamble, you
+always have to re-deploy your contract.
 
