@@ -26,13 +26,14 @@ class SimpleWallet {
   async send(method) {
     const data = method.encodeABI();
     const count = await this.web3.eth.getTransactionCount(this.address);
+    console.log()
     const rawTx = {
       from: this.address,
       to: method._parent.options.address,
       nonce: this.web3.utils.toHex(count),
       gasPrice: this.web3.utils.toHex(this.web3.utils.toWei("21", "gwei")),
       gasLimit: this.web3.utils.toHex(
-        await method.estimateGas({from: this.address}),
+        900000
       ),
       data: data,
     };
