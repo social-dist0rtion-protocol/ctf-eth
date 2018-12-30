@@ -16,7 +16,7 @@ class SimpleWallet {
 
   async loadContract(name) {
     const metadata = require(`./build/contracts/${name}.json`);
-    const networkId = 3
+    const networkId = await this.web3.eth.net.getId();
     const contractAbi = metadata.abi;
     const contractAddress = metadata.networks[networkId].address;
     const contract = new this.web3.eth.Contract(contractAbi, contractAddress);
@@ -26,6 +26,7 @@ class SimpleWallet {
   async send(method) {
     const data = method.encodeABI();
     const count = await this.web3.eth.getTransactionCount(this.address);
+    console.log()
     const rawTx = {
       from: this.address,
       to: method._parent.options.address,
