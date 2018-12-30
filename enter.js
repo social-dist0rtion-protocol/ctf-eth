@@ -11,8 +11,16 @@ const SimpleWallet = require('./SimpleWallet');
   var entrance = await wallet.loadContract('Entrance');
   var blockNumber = await wallet.web3.eth.getBlockNumber();
   console.log(blockNumber, blockNumber % 7);
-  await wallet.send(contract.methods.enter());
+  try {
+    const tx = await wallet.send(contract.methods.enter());
+    console.log(tx);
+  } catch (e) {
+    console.log(e);
+    // noop
+  }
 
-  var balance = await wallet.call(entrance.methods.balanceOf("0x7d39b75086ad2e5ea5c3aa49fcf5c2e3b6de5ced"));
+  var balance = await wallet.call(
+    entrance.methods.balanceOf('0x7d39b75086ad2e5ea5c3aa49fcf5c2e3b6de5ced'),
+  );
   console.log(balance);
 })();
