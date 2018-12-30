@@ -71,8 +71,8 @@ player's balance and then doesn't allow the player to play again as
 
 ```
 
-We can also see that one can only successfully gamble when the block.number is
-divisible by 7, as otherwise funds are subtracted from the balance of the
+We can also see that one can only successfully gamble when the `block.number`
+is divisible by 7, as otherwise funds are subtracted from the balance of the
 player.
 
 With this in mind we were quite confused at first what to do and re-read the
@@ -137,8 +137,8 @@ In the constructor, we set the address `a` of the vulnerable contract.  In
 `enter`, we call `block.number` and check if it's divisible by 7. We then
 instanciate the vulnerable contract, call `enter` and `gamble`. We run through
 the gambling game by continously falling back to our fallback-function
-`function()` to ultimately stop, and call `getFlag` with a netcat server we
-setup.
+`function()` to ultimately stop, and call `getFlag`. After the transaction is
+confirmed, our netcat server was answered with the flag.
 
 
 ### Tips
