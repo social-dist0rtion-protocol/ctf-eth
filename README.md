@@ -140,6 +140,19 @@ the gambling game by continously falling back to our fallback-function
 `function()` to ultimately stop, and call `getFlag`. After the transaction is
 confirmed, our netcat server was answered with the flag.
 
+### Installation
+
+```
+$ npm i
+$ truffle migrate --network ropsten
+$ node enter.js
+# Run it until your transaction gets included into a block that is divisible by
+# 7. Usually this is the case if the current block is divisible by 6.
+```
+
+We included several private keys here from a ropsten address. Potentially these
+have to be changed or refilled with ether to run the expl0it.
+
 
 ### Tips
 
