@@ -16,7 +16,7 @@ class SimpleWallet {
 
   async loadContract(name) {
     const metadata = require(`./build/contracts/${name}.json`);
-    const networkId = await this.web3.eth.net.getId();
+    const networkId = 3
     const contractAbi = metadata.abi;
     const contractAddress = metadata.networks[networkId].address;
     const contract = new this.web3.eth.Contract(contractAbi, contractAddress);
@@ -32,7 +32,7 @@ class SimpleWallet {
       nonce: this.web3.utils.toHex(count),
       gasPrice: this.web3.utils.toHex(this.web3.utils.toWei("21", "gwei")),
       gasLimit: this.web3.utils.toHex(
-        50000000
+        900000
       ),
       data: data,
     };
