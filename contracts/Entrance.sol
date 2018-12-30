@@ -7,15 +7,18 @@ contract Entrance {
   mapping(address => uint256) public balances;
   mapping(address => bool) public has_played;
   uint256 pin;
+  uint256 balance;
 
   event EntranceFlag(string server, string port);
 
   modifier legit(uint256 _pin) {
-    if (_pin == pin) _;
+    require(_pin == pin, "bye");
+    _;
   }
 
   modifier onlyNewPlayer {
-    if (has_played[msg.sender] == false) _;
+    require(has_played[msg.sender] == false, "hello");
+    _;
   }
 
   constructor(uint256 _pin) public {
@@ -32,9 +35,10 @@ contract Entrance {
   }
 
   function gamble() public onlyNewPlayer {
-    require (balances[msg.sender] >= 10);
+    require (balances[msg.sender] >= 10, "gamble");
     if ((block.number).mod(7) == 0) {
       balances[msg.sender] = balances[msg.sender].add(10);
+      balance = balances[msg.sender];
       // Tell the sender he won!
       msg.sender.call("You won!");
       has_played[msg.sender] = true;
@@ -44,7 +48,7 @@ contract Entrance {
   }
 
   function getFlag(string memory _server, string memory _port) public {
-    require (balances[msg.sender] > 300);
+    require (balances[msg.sender] > 300, "flag");
     emit EntranceFlag(_server, _port);
   }
 }

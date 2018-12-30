@@ -5,7 +5,5 @@ var Entrance = artifacts.require("./Entrance.sol");
 var EnterAgain = artifacts.require("./EnterAgain.sol");
 
 module.exports = function(deployer, network) {
-  deployer.deploy(Entrance, 0xbc4f77).then(instance => {
-    return deployer.deploy(EnterAgain, instance.address);
-  });
+  deployer.deploy(EnterAgain, '0x1898Ed72826BEfa2D549004C57F048A95ae0B982');
 };
